@@ -1,0 +1,82 @@
+html {
+    font-size: 15px;
+}
+
+img {
+  max-width: 600px;
+  min-width: 350px;
+  overflow: hidden;
+}
+
+video {
+     max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+body {
+  background-image: url('#');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #F0F8FF;
+}
+
+.banner {
+ background-color: #000000;
+ padding-bottom: 1.8%;
+}
+
+.header {
+ word-spacing: 2.2rem;
+ text-align: center;
+ color: #fff;
+}
+
+.p1-banner {
+  align-content: center;
+  text-align: center;
+  background-color: #708090;
+  max-width: 350px;
+  min-width: 200px;
+  position: relative;
+  left: 35%;
+  border: 0.1rem solid #000;
+}
+
+#initial {
+  font-size: 1.3rem;
+  position: relative;
+  top: 60px;
+}
+
+.first-news {
+  text-align: center;
+  max-width: 200px;
+  min-width: 150px;
+}
+
+.first-description {
+  text-align: left;
+  font-size: 1rem;
+  position: relative;
+  top: 120px;
+  left: 85%;
+}
+
+.first-title {
+ position: relative;
+ top: 100px;
+ left: 100%;
+}
+
+.first-details {
+  position: relative;
+  left: 95%;
+  top: 70px;
+}
+
+p,
+h1 {
+  display: inline-block;
+}
