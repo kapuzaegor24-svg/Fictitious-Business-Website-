@@ -1,14 +1,38 @@
-@media only screen and (min-width: 280px) and (max-width: 480px) , (orientation: portrait) {
-   .banner .new-releases{
+  @media only screen and (min-width: 280px) and (max-width: 480px) , (orientation: portrait) {
+   
+  p,
+  h1 {
+    display: block;
+  }
+  
+  .banner .new-releases{
      max-width: 400px;
+  }
+  @media screen and (min-width: 480px) and (max-width: 768px) {
+     .banner {
+    text-align: center;
+    max-width: 400px;
+    font-size: 0.1rem;
+  } 
   }
   .banner {
     text-align: center;
+    max-width: 400px;
+    font-size: 0.4rem;
   }
 
   .p1-banner {
     max-width: 200px;
     min-width: 100px;
+    text-align: center;
+  }
+
+  .first-news {
+    text-align: center;
+    max-width: 100px;
+    min-width: 50px;
+    max-height: 50px;
+    min-height: 25px;
   }
 }
 
@@ -70,7 +94,7 @@ body {
   min-width: 150px;
 }
 
-.first-description {
+#first-description {
   text-align: left;
   font-size: 1rem;
   position: relative;
@@ -78,13 +102,13 @@ body {
   left: 85%;
 }
 
-.first-title {
+#first-title {
  position: relative;
  top: 100px;
  left: 100%;
 }
 
-.first-details {
+#first-details {
   position: relative;
   left: 95%;
   top: 70px;
@@ -94,3 +118,13 @@ p,
 h1 {
   display: inline-block;
 }
+
+
+
+
+
+
+
+  
+
+
