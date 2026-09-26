@@ -1,35 +1,25 @@
-@media only screen and (min-width: 300px) and (max-width: 480px) {
-  
-  p,
-  h1 {
-    display: block;
-  }
-
-  .banner {
-    max-height: 600px;
-    min-height: 400px;
-  }
-
-  .header {
-  text-align: center;
-  color: #fff;
-  word-spacing: 0.8rem;
-  font-size: 0.7rem;
-  max-width: 380px;
-  min-width: 280px;
-  position: relative;
- }
-
+@media only screen and (max-width: 470px) {
   .p1-banner {
-   text-align: center;
-   position: relative;
-   right: 50px;
-   font-size: 0.75rem;
-   max-width: 125px;
-   min-width: 100px;
-   max-height: 400px;
-   min-height: 300px
+    position: static;
   }
+
+  #first-description {
+    position: relative;
+    right: 20px;
+  }
+
+  #first-title {
+   position: relative;
+  }
+
+  #first-details {
+   position: relative;
+  }
+}
+
+
+@media only screen and (max-width: 700px) {
+
 }
 
 @media only screen and (min-resolution: 300dpi), (orientation: landscape) {
@@ -39,11 +29,12 @@
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     /* CSS ruleset */
 }
- 
   
+
 
 html {
     font-size: 15px;
+    box-sizing: border-box;
 }
 
 img {
@@ -59,72 +50,178 @@ video {
 }
 
 body {
-  background-image: url('#');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   background-color: #F0F8FF;
 }
 
-.banner {
- background-color: #000000;
- padding-bottom: 1.8%;
+header {
+  word-spacing: 2.2rem;
+  text-align: center;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  margin-top: -1.4%;
+  z-index: 10;
 }
 
-.header {
- word-spacing: 2.2rem;
- text-align: center;
- color: #fff;
+header p {
+  background-color: #000;
 }
 
-.p1-banner {
-  align-content: center;
+
+
+.offers h1 {
   text-align: center;
   background-color: #708090;
   max-width: 350px;
   min-width: 200px;
-  position: relative;
-  left: 35%;
   border: 0.1rem solid #000;
+  font-size: 1.6rem;
+  position: relative;
+  padding-bottom: 1.5%;
+  padding-top: 1.5%;
+  margin-top: -0.5%;
+  left: 35%;
+  top: 10px;
 }
 
-#initial {
-  font-size: 1.3rem;
+
+.offers {
+  background-color: #000;
   position: relative;
+  padding-bottom: 1.5%;
+  margin-left: -2%;
+  margin-right: -2%;
+  top: 12px;
+}
+
+
+
+.news h1 {
+  font-size: 1.7rem;
+  position: relative;
+  top: 40px;
+  left: 44%;
+}
+
+.news-1-theme {
+  font-size: 1.2rem;
+  position: relative;
+  left: 20%;
+  top: 75px;
+}
+
+.news-1 h1 {
+  font-size: 1.7rem;
+  text-align: center;
+  max-width: 200px;
+  min-width: 50px;
+  position: relative;
+  left: 17.5%;
   top: 60px;
 }
 
-.first-news {
+.news-1 p {
+  font-size: 1.2rem;
+  max-width: 125px;
+  min-width: 50p;
   text-align: center;
-  max-width: 200px;
-  min-width: 150px;
-}
-
-#first-description {
-  text-align: left;
-  font-size: 1rem;
   position: relative;
-  top: 120px;
-  left: 85%;
+  left: 20.5%;
+  top: 50px;
 }
 
-#first-title {
+.news-2-theme {
+  font-size: 1.2rem;
+  text-align: center;
+  position: relative;
+  bottom: 199px;
+  right: 1.5%;
+}
+
+.news-2 h1 {
+  font-size: 1.7rem;
+  text-align: center;
+  max-width: 213px;
+  min-width: 50px;
+  position: relative;
+  left: 41%;
+  bottom: 215px;
+}
+
+.news-2 p {
+  font-size: 1.2rem;
+  max-width: 150px;
+  min-width: 50px;
+  text-align: center;
+  position: relative;
+  bottom: 225px;
+  left: 44%;
+}
+
+.news-3-theme {
+  font-size: 1.2rem;
+  text-align: right;
+  position: relative;
+  bottom: 470px;
+  right: 24%;
+}
+
+.news-3 h1 {
+  font-size: 1.7rem;
+  text-align: center;
+  max-width: 220px;
+  min-width: 50px;
+  position: relative;
+  bottom: 490px;
+  left: 65%;
+}
+
+.news-3 p {
+  font-size: 1.2rem;
+  text-align: center;
+  max-width: 170px;
+  min-width: 50px;
+  position: relative;
+  bottom: 502px;
+  left: 67%;
+}
+
+table, td, th {
+  border: 2px solid #000
+}
+
+table {
+  position: relative;
+  bottom: 460px;
+  left: 16%;
+}
+
+table th {
+  font-size: 1.5rem;
+}
+
+table td {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.P12H-intro h1 {
+ font-size: 1.5rem;
+ text-align: center;
  position: relative;
- top: 100px;
- left: 100%;
+ bottom: 490px;
 }
 
-#first-details {
+.P12H-intro p {
+  font-size: 1.2rem;
+  text-align: center;
   position: relative;
-  left: 95%;
-  top: 70px;
-}
+  bottom: 475px;
 
-p,
-h1 {
-  display: inline-block;
 }
-
+  
 
   
  
